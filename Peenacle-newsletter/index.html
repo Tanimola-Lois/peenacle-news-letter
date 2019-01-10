@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <!-- <link href="materialize.min.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="public/web-fonts-with-css/css/fontawesome-all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row-one">
+            <div class="ncol-lg-12 text-center">
+                <h2>Subscribe To Our News Letter</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <i class="fas fa-user icon"></i>
+                                <input class="form-control" id="name" type="text" placeholder="Your-Name" required="required" data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <span><i class="fas fa-envelope icon"></i></span>
+                                <input class="form-control" id="email" type="email" placeholder="E-mail" required="required" data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <section>
+
+    </section>
+</body>
+</html>

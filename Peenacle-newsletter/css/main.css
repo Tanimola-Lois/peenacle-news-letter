@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    background-color: #A44398;
+    position: relative;
+    font-family:Verdana,
+    Arial,
+    Helvetica,
+    sans-serif;
+    font-size:13px;
+}
+
+.row {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.row-one>div>h2 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.row-one {
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.btn{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+}
+input[type=text], input[type=email] {
+    padding: 5px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    background-color: #A44398;
+    border: 1px solid white;
+    color: white;
+}
+input[placeholder=Your-Name], input[placeholder=E-mail]{
+    margin-left: 10px;
+    color: white;
+}
+#name, #email{
+    width: 200px;
+}
+.icon{
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 11px;
+}
